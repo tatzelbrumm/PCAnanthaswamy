@@ -4,6 +4,10 @@
 ### Example: EEG data to determine consciousness  
 
 ## linear maps in general  
+
+A *linear map* 
+$$f: \mathbb{R}^k\rightarrow\mathbb{R}^l$$  
+
   
 ### endormorphisms (represented by *square* matrices)  
 
