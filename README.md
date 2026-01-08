@@ -7,9 +7,15 @@
 
 A *linear map*  
 
-$f: \mathbb{R}^k\rightarrow\mathbb{R}^l$  
+$$f: \mathbb{R}^k\rightarrow\mathbb{R}^l$$  
 
-$\mathbb{R}^k\owns x\mapsto f(x)\in\mathbb{R}^k$  
+$$\mathbb{R}^k\owns x\mapsto f(x)\in\mathbb{R}^l$$
+
+with  
+
+$$f(\kappa x+\lambda y)=\kappa f(x)+\lambda f(y)$$
+
+is fully determined by the mapping of the basis vectors of $\mathbb{R}^k$ to the basis vectors of $\mathbb{R}^l$.
   
 ### endormorphisms (represented by *square* matrices)  
 
