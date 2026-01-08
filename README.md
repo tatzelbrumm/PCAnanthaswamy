@@ -29,7 +29,7 @@ $`f: \mathbb{R}^k\rightarrow\mathbb{R}^l`$
 
 An endomorphism, fully defined by an $k\times k$ matrix, has $k$ eigenvalues $\lambda_i$, $`i\in\{1\ldots k\}`$.  
 Each eigenvalue $\lambda_i$ has an eigenvector $\mathbf{x_i}$, 
-such that $f(x_i)=\lambda_i f(x_i)$.
+such that $f(x_i)=\lambda_i x_i$.
 
 Graphically, the mapping of an eigenvector is parallel to the eigenvector, scaled by the eigenvalue.  
 
