@@ -5,9 +5,11 @@
 
 ## linear maps in general  
 
-A *linear map* 
-$$f: \mathbb{R}^k\rightarrow\mathbb{R}^l$$  
+A *linear map*  
 
+$f: \mathbb{R}^k\rightarrow\mathbb{R}^l$  
+
+$\mathbb{R}^k\owns x\mapsto f(x)\in\mathbb{R}^k$  
   
 ### endormorphisms (represented by *square* matrices)  
 
