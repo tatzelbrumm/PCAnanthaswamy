@@ -19,8 +19,9 @@ is fully determined by the mapping of the basis vectors of $\mathbb{R}^k$ to the
   
 ### endormorphisms (represented by *square* matrices)  
 
-An $k\times k$ matrix has $k$ eigenvalues. Each eigenvalue has an eigenvector.  
-[Definition!]  
+An $k\times k$ matrix has $k$ eigenvalues $\lambda_i$, $i\in\{1\ldots k\}$.  
+Each eigenvalue $\lambda_i$ has an eigenvector $\mathbf{x_i}$, 
+such that $f(x_i)=\lambda_i f(x_i)$.
 
 Symmetric matrices have orthogonal eigenvectors.  
 
