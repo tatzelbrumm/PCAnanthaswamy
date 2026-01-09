@@ -67,6 +67,7 @@ $`\mathrm{\sigma}_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^
 * [Spektralsatz Beweis Lineare Algebra](https://chatgpt.com/share/69600700-7840-8000-839e-733ebd41c745)  
     Einfacher (für Haltungsjournalisten) aber trotzdem mathematisch sauberer und sauber notierter Beweis des Spektralsatzes in der Linearen Algebra, mit Veranschaulichung.   
 * [Mahalanobis-Abstand einfach erklärt](https://chatgpt.com/share/6960c0fa-ebec-8000-a507-26eba5d772db)  
-    Einfache Erklärung mit Beispiel(en) für Mahalanobis-Abstand, für Haltungsjournalisten
+    Einfache Erklärung mit Beispiel(en) für Mahalanobis-Abstand, für Haltungsjournalisten  
+    ... weil's [der X-"Nazi" Lars dem Weisbrod gegenüber erwähnt hat](https://x.com/hortarimar/status/2007452454930035113). 
 * [Whitening and Mahalanobis Distance](https://chatgpt.com/share/6960271f-a790-8000-a76c-0237aa0f4f24)  
     "Whitening", also das Zurechtstauchen des Hauptkomponenten-Ellipsoids in eine Kugel, transformiert den Mahalanobis-Abstand in einfachen euklidischen Abstand.
