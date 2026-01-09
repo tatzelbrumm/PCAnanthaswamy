@@ -73,8 +73,7 @@ from the data set before taking the outer product
 $`\mathrm{\sigma}_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.  
 
 It may be simpler to calculate  
-$`\sum_{n=1}^N x^n_i\,x^n_j-\overline{x_i}\,\overline{x_j}=
-\sum_{n=1}^N \left(x^n_i\,x^n_j -\overline{x_i}\left(x^n_j\right)-\left(x^n_i\right)\,\overline{x_j} +\overline{x_i}\,\overline{x_j}\right)=
+$`\sum_{n=1}^N x^n_i\,x^n_j-N\,\overline{x_i}\,\overline{x_j}=
 \sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$
 
 ## Related LLM chats
