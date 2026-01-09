@@ -34,7 +34,7 @@ For finite $k$ and $l$, these mappings are conveniently arranged as matrix.
 
 ### The linear map of the unit sphere is always an ellipsoid  
 
-(sometimes a squished ellipsoid)
+[(sometimes a squished ellipsoid)](https://chatgpt.com/share/696006b6-fb58-8000-bb3f-67e101261339)  
   
 ### Endormorphisms (represented by *square* matrices)  
 
@@ -53,7 +53,7 @@ i.e., if $`f(x_i)=\lambda_i x_i`$, then also $`f(\xi\,x_i)=\lambda_i\,\xi\,x_i`$
 Graphically, the mapping of an eigenvector is parallel to the eigenvector, scaled by the eigenvalue.  
 
 Symmetric matrices have orthogonal eigenvectors.  
-[Spektralsatz]
+[Spektralsatz](https://chatgpt.com/share/69600700-7840-8000-839e-733ebd41c745)  
 
 ## Data series  
 
@@ -70,7 +70,12 @@ $`\mathrm{corr}_{i\,j}=\sum_{n=1}^N x^n_i x^n_j`$ with $`i,j\in\{1,\ldots,k\}`$.
 If we're only interested in the correlation of the *change* of data points, we subtract the mean values  
 $`\overline{x_i}={1\over N}\sum_{n=1}^N x^n_i`$  
 from the data set before taking the outer product  
-$`\mathrm{\sigma}_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.
+$`\mathrm{\sigma}_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.  
+
+It may be simpler to calculate  
+$`\sum_{n=1}^N x^n_i\,x^n_j-\overline{x_i}\,\overline{x_j}=
+\sum_{n=1}^N \left(x^n_i\,x^n_j -\overline{x_i}\left(x^n_j\right)-\left(x^n_i\right)\,\overline{x_j} +\overline{x_i}\,\overline{x_j}\right)=
+\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$
 
 ## Related LLM chats
 
