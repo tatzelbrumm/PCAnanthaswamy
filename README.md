@@ -63,18 +63,22 @@ Data series of $N$ $k$-dimensional vectors $`\mathbf{x}^n\in\mathbb{R}^k`$ with 
 
 The **correlation matrix** of the data series is the sum of the **outer products** (multiply each component to each other component) of the data vectors,  
 with elements  
-$`\mathrm{corr}_{i\,j}=\sum_{n=1}^N x^n_i x^n_j`$ with $`i,j\in\{1,\ldots,k\}`$.
+$`\mathrm{corr}_{i\,j}=\sum_{n=1}^N x^n_i x^n_j`$ with $`i,j\in\{1,\ldots,k\}`$.  
+
+By construction, the matrix is symmetric: $`\mathrm{corr}_{i\,j}=\mathrm{corr}_{j\,i}`$.
 
 ### Covariance  
 
 If we're only interested in the correlation of the *change* of data points, we subtract the mean values  
 $`\overline{x_i}={1\over N}\sum_{n=1}^N x^n_i`$  
 from the data set before taking the outer product  
-$`\mathrm{\sigma}_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.  
+$`\sigma_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.  
 
 It may be simpler to calculate  
 $`\sum_{n=1}^N x^n_i\,x^n_j-N\,\overline{x_i}\,\overline{x_j}=
 \sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$
+
+By construction, $`\mathbb{\sigma}`$ is symmetric: $`\sigma_{i\,j}=\sigma_{j\,i}`$
 
 ## Related LLM chats
 
@@ -82,7 +86,12 @@ $`\sum_{n=1}^N x^n_i\,x^n_j-N\,\overline{x_i}\,\overline{x_j}=
     Beweise: Jede lineare Abbildung bildet die Einheitskugel auf ein Ellipsoid ab  
     Antwort: Im Prinzip ja, aber manchmal wird das Ellipsoid in einigen Dimensionen geplättet. Dann wird aus der Randfläche ein durchgehendes Volumen.
 * [Spektralsatz Beweis Lineare Algebra](https://chatgpt.com/share/69600700-7840-8000-839e-733ebd41c745)  
-    Einfacher (für Haltungsjournalisten) aber trotzdem mathematisch sauberer und sauber notierter Beweis des Spektralsatzes in der Linearen Algebra, mit Veranschaulichung.   
+    Einfacher (für Haltungsjournalisten) aber trotzdem mathematisch sauberer und sauber notierter Beweis des Spektralsatzes in der Linearen Algebra, mit Veranschaulichung.
+* [Stabile Rotationen Starrkörper](https://chatgpt.com/share/6960eea9-2ec8-8000-8601-48cc7c9b7743)   
+    * [Axial rotierender Fisch](./fish_stable_I1.gif)    
+    * [Horizontal rotierender Fisch](./fish_stable_I3.gif)    
+    * [Vertikal taumelnder Fisch](./fish_intermediate_axis_instability.gif)    
+    * [Vertikal rotierender Fisch](https://www.youtube.com/watch?v=-mJENuEN_rs&t=87s)  
 * [Mahalanobis-Abstand einfach erklärt](https://chatgpt.com/share/6960c0fa-ebec-8000-a507-26eba5d772db)  
     Einfache Erklärung mit Beispiel(en) für [Mahalanobis-Abstand](http://www.statistics4u.info/fundstat_germ/ee_mahalanobis_distance.html), für Haltungsjournalisten  
     ... weil's [der X-"Nazi" Lars dem Weisbrod gegenüber erwähnt hat](https://x.com/hortarimar/status/2007452454930035113). 
