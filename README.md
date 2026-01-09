@@ -12,7 +12,7 @@ This makes ontologies without playing with the concepts presented a fool's erran
 
 For a data set in which each datum is described as a vector of different properties,  
 the Principal Component Analysis is a method to *rotate* (i.e., transform its components such that lengths and angles are preserved) the coordinates of all the data vectors 
-such that the *fewest* number of coordinates explain *most* of the **variance** (distance from the arithmetic mean squared) of the data points.
+such that the ***fewest*** number of coordinates explain ***most*** of the **variance** (distance from the arithmetic mean squared) of the data points.
 
 ### Example: EEG data to determine consciousness  
 
@@ -72,13 +72,25 @@ By construction, the matrix is symmetric: $`\mathrm{corr}_{i\,j}=\mathrm{corr}_{
 If we're only interested in the correlation of the *change* of data points, we subtract the mean values  
 $`\overline{x_i}={1\over N}\sum_{n=1}^N x^n_i`$  
 from the data set before taking the outer product  
-$`\sigma_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$.  
+$`\Sigma_{i\,j}=\sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$ with $`i,j\in\{1,\ldots,k\}`$ with $`i,j\in\{1,\ldots,k\}`$.  
 
 It may be simpler to calculate  
 $`\sum_{n=1}^N x^n_i\,x^n_j-N\,\overline{x_i}\,\overline{x_j}=
 \sum_{n=1}^N \left(x^n_i-\overline{x_i}\right) \left(x^n_j-\overline{x_i}\right)`$
 
-By construction, $`\mathbb{\sigma}`$ is symmetric: $`\sigma_{i\,j}=\sigma_{j\,i}`$
+By construction, $`\Sigma`$ is symmetric: $`\Sigma_{i\,j}=\Sigma_{j\,i}`$
+
+The $`k\times k`$ covariance matrix $`\Sigma`$ has $k$ eigenvectors orthogonal to each other, each with an eigenvalue $\lambda_i$.  
+
+By the [spectral theorem](https://chatgpt.com/share/69600700-7840-8000-839e-733ebd41c745), 
+the covariance matrix can be decomposed into the product of 
+* a diagonal matrix $`\Lambda`$ with the eigenvalues as diagonals  
+* an *orthogonal* (i.e. length and angle preserving) transformation matrix $`\mathbf{Q}`$  
+    i.e., $`\mathbf{Q}^{-1}=\mathbf{Q}^T`$  
+    and $`\mathbf{Q}^{-1}\mathbf{Q}=1`$  
+    with the eigenvectors as columns  
+such that
+$`\Sigma=\mathbf{Q}^T \Lambda \mathbf{Q}`$
 
 ## Related LLM chats
 
