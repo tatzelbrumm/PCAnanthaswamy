@@ -88,10 +88,13 @@ By construction, $`\mathbb{\sigma}`$ is symmetric: $`\sigma_{i\,j}=\sigma_{j\,i}
 * [Spektralsatz Beweis Lineare Algebra](https://chatgpt.com/share/69600700-7840-8000-839e-733ebd41c745)  
     Einfacher (für Haltungsjournalisten) aber trotzdem mathematisch sauberer und sauber notierter Beweis des Spektralsatzes in der Linearen Algebra, mit Veranschaulichung.
 * [Stabile Rotationen Starrkörper](https://chatgpt.com/share/6960eea9-2ec8-8000-8601-48cc7c9b7743)   
-    * [Axial rotierender Fisch](./fish_stable_I1.gif)    
-    * [Horizontal rotierender Fisch](./fish_stable_I3.gif)    
-    * [Vertikal taumelnder Fisch](./fish_intermediate_axis_instability.gif)    
     * [Vertikal rotierender Fisch](https://www.youtube.com/watch?v=-mJENuEN_rs&t=87s)  
+    * [Axial rotierender Fisch](./fish_stable_I1.gif)  
+        ![Axial rotierender Fisch](./fish_stable_I1.gif)  
+    * [Horizontal rotierender Fisch](./fish_stable_I3.gif)  
+        ![Horizontal rotierender Fisch](./fish_stable_I3.gif)  
+    * [Vertikal taumelnder Fisch](./fish_intermediate_axis_instability.gif)  
+        ![Vertikal taumelnder Fisch](./fish_intermediate_axis_instability.gif)  
 * [Mahalanobis-Abstand einfach erklärt](https://chatgpt.com/share/6960c0fa-ebec-8000-a507-26eba5d772db)  
     Einfache Erklärung mit Beispiel(en) für [Mahalanobis-Abstand](http://www.statistics4u.info/fundstat_germ/ee_mahalanobis_distance.html), für Haltungsjournalisten  
     ... weil's [der X-"Nazi" Lars dem Weisbrod gegenüber erwähnt hat](https://x.com/hortarimar/status/2007452454930035113). 
